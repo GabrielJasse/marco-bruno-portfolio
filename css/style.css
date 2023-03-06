@@ -1,9 +1,19 @@
+/* CSS HEX */
+root{
+--ivory: #fbfff1ff;
+--pale-dogwood: #f2d1c9ff;
+--blue-ncs: #3685b5ff;
+--honolulu-blue: #0471a6ff;
+--oxford-blue: #101935ff;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #7C5E99;
+    background-color: var(--oxford-blue);
     padding: 0px 20px;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid var(--ivory);
     padding: 10px 20px;
 
 }
@@ -31,24 +41,25 @@ a{
 
 a::before{
     content: "";
-    background-color: #F25A70;
+    background-color: var(--blue-ncs);
     height: 10px;
     width: 10px;
     margin-right: 10px;
 }
 
 .hover__link:hover{
-    color: #FFF;
+    color: var(--ivory);
     transform: scale(1.09999);
 }
 
 a:hover::before{
-    background-color: #f7f7f7;
+    background-color: var(--ivory);
 }
 
 .button{
     display: inline-block;
-    background-color: #F25A70;
+    color: var(--oxford-blue);
+    background-color: var(--pale-dogwood);
     padding: 16px 10px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
@@ -56,6 +67,5 @@ a:hover::before{
 }
 
 .button:hover{
-    box-shadow: 5px 5px 0px #000;
     transform: scale(1.08);
 }

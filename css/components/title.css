@@ -1,9 +1,20 @@
+:root{
+    /* CSS HEX */
+--ivory: #fbfff1ff;
+--pale-dogwood: #f2d1c9ff;
+--blue-ncs: #3685b5ff;
+--honolulu-blue: #0471a6ff;
+--oxford-blue: #101935ff;
+
+}
+
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: #F25A70;
-    text-shadow: 4px 1px 0 #000;
+    color: var(--honolulu-blue);
+    text-shadow: 4px 1px 0 var(--oxford-blue);
 }
 
 
