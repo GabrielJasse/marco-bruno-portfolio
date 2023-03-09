@@ -1,19 +1,11 @@
-/* CSS HEX */
-:root{
---ivory: #fbfff1ff;
---pale-dogwood: #f2d1c9ff;
---blue-ncs: #3685b5ff;
---honolulu-blue: #0471a6ff;
---oxford-blue: #101935ff;
-}
 
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: var(--oxford-blue);
+    background-color: #7C5E99;
     padding: 0px 20px;
-    border-bottom: 10px solid var(--ivory);
+    border-bottom: 10px solid #000;
     padding: 10px 20px;
 
 }
@@ -41,25 +33,25 @@ a{
 
 a::before{
     content: "";
-    background-color: var(--blue-ncs);
+    background-color: #7C5E99;
     height: 10px;
     width: 10px;
     margin-right: 10px;
 }
 
 .hover__link:hover{
-    color: var(--ivory);
+    color: #FFFFFF;
     transform: scale(1.09999);
 }
 
 a:hover::before{
-    background-color: var(--ivory);
+    background-color: #F25A70;
 }
 
 .button{
     display: inline-block;
-    color: var(--oxford-blue);
-    background-color: var(--pale-dogwood);
+    color: #FFFFFF;
+    background-color: #F25A70;
     padding: 16px 10px;
     box-shadow: 5px 5px 0px #000;
     margin-right: 0;
