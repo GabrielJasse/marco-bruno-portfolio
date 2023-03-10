@@ -1,4 +1,4 @@
-#box {
+.box {
     display: inline-block; /* Faz com que o block não atrapalhe a largura que queremos*/
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000;
@@ -6,6 +6,6 @@
     padding: 42px 97px; /*A largura foi definida com o Padding*/
 }
 
-#box h1{
+.box .title{
     margin-bottom: 28px;
 }
