@@ -1,0 +1,11 @@
+#box {
+    display: inline-block; /* Faz com que o block não atrapalhe a largura que queremos*/
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 42px 97px; /*A largura foi definida com o Padding*/
+}
+
+#box h1{
+    margin-bottom: 28px;
+}
