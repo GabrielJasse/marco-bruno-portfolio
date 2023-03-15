@@ -3,7 +3,7 @@
 (Lembrete de estudo apenas).
 */
 
-.title{
+.main-title{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -11,9 +11,11 @@
     text-shadow: 6px 4px 0 #000;
 }
 
-.title.-second {
+.main-title.-second {
     color: #FFF;
     text-align: center;
     text-shadow: none;
 }
+
+
 
