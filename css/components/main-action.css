@@ -1,4 +1,4 @@
-.action{
+.main-action{
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -10,7 +10,7 @@
     transition: transform 0.5s linear;
 }
 
-.action::before{
+.main-action::before{
     content: "";
     background-color: #7C5E99;
     height: 10px;
@@ -18,11 +18,11 @@
     margin-right: 10px;
 }
 
-.action:hover{
+.main-action:hover{
     color: #FFFFFF;
     transform: scale(1.09999);
 }
 
-.action:hover::before{
+.main-action:hover::before{
     background-color: #F25A70;
 }
