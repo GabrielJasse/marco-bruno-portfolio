@@ -1,0 +1,26 @@
+.wrapper-skill {
+    display: flex;;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0px auto 40px auto;
+    align-items: center;
+}
+
+.wrapper-skill .skill-tec {
+    width: 480px;
+    margin-bottom: 25px;
+}
+
+.wrapper-skill .progress-bar {
+    width: 320px ;
+}
+
+.wrapper-skill .icon {
+    width: 80px;
+    height: 80px;
+    margin: 12px;
+}
+
+.wrapper-skill .title {
+    margin-bottom: 10px;
+}
