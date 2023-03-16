@@ -1,0 +1,5 @@
+.project-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto 100px auto;
+}

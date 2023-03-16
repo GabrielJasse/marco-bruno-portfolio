@@ -1,10 +1,19 @@
 .section {
-    background-color: #F25A70;
     padding-top: 50px;
-    padding-bottom: 100px;
-    border-bottom: 10px solid #7C5E99;
+    padding-bottom: 50px;
+    border-bottom: 10px solid #000;
 }
 
 .section .main-title.-second{
     margin-bottom: 60px;
+}
+
+.section__skill{
+    background-color: #F25A70;
+    border-bottom: 10px solid #7C5E99;
+}
+
+.section__project {
+    background-color: #000;
+    border-bottom: 10px solid #F25A70;
 }
