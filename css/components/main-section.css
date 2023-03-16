@@ -1,10 +1,10 @@
-.section {
+.main-section {
     background-color: #ccc;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.section .main-title.-second{
+.main-section .main-title.-second{
     margin-bottom: 60px;
 }
 
