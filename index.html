@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="css/components/main-contact.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-text.css">
@@ -195,24 +197,24 @@
     <section class="main-contact">
         <h2 class="main-title -second">Contatos</h2>
 
-        <form class="main-input" action="">
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" required >
+        <form action="">
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input"  type="text" name="name" id="name" required >
 
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input"  type="email" id="email" required>
 
-            <label for="mensagem">Mensagem</label>
-            <input type="text" name="mensagem" id="mensagem" required>
+            <label class="main-label" for="mensagem">Mensagem</label>
+            <textarea class="main-input" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
 
             <input type="submit" value="Enviar" id="enviar">
         </form>
     </section>
 
     <footer class="main-footer">
-        <a class="footer-items" href="https://twitter.com" target="_blank"><img src="assets/img/icon-twitter.svg" alt="Logo do Twitter Pixelado"></a>
-        <a class="footer-items" href="https://youtube.com" target="_blank"><img src="assets/img/icon-youtube.svg" alt="Logo do Youtube Pixelado"></a>
-        <a class="footer-items" href="https://discord.com" target="_blank"><img src="assets/img/icon-discord.svg" alt="Logo do discord Pixelado"></a>
+        <a href="https://twitter.com" target="_blank"><img src="assets/img/icon-twitter.svg" alt="Logo do Twitter Pixelado"></a>
+        <a href="https://youtube.com" target="_blank"><img src="assets/img/icon-youtube.svg" alt="Logo do Youtube Pixelado"></a>
+        <a href="https://discord.com" target="_blank"><img src="assets/img/icon-discord.svg" alt="Logo do discord Pixelado"></a>
     </footer>
     
     <script src="js/components/main-carousel.js"></script>
