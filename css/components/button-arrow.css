@@ -11,11 +11,11 @@
 }
 
 .button-arrow::before{
-    border-left: 28px solid white;
-    border: 15px solid transparent;
     box-sizing: border-box;
-    content: '';
     display: block;
+    content: '';
+    border: 15px solid transparent;
+    border-left: 28px solid #FFF;
     height: 15px;
     transform: translateX(8px);
     width: 15px;
